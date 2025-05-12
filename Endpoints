@@ -1,0 +1,7 @@
+Endpoints
+//POST /api/chat/send
+Body: { sender, receiver, message }
+
+GET /api/chat/history
+Returns the last 100 messages (stored in memory only).//
+ 
